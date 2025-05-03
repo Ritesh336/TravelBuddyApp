@@ -1,0 +1,50 @@
+name: travel_itinerary_planner
+description: "A Flutter travel app with buddy matching and trip planning."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Base packages
+  provider: ^6.0.5
+  shared_preferences: ^2.1.1
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.8
+  
+  # Firebase packages - Updated to latest
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.3
+  
+  # API integrations - with fixed versions
+  google_maps_flutter: ^2.5.0
+  google_place: ^0.4.7
+  http: ^0.13.6
+  
+  # Chat feature
+  flutter_chat_ui: ^1.6.9
+  flutter_chat_types: ^3.6.2
+  
+  # Image handling
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/travel_header.jpg
+    - assets/images/completed_trips.jpg
+    - assets/images/google_logo.png
