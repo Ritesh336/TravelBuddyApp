@@ -198,4 +198,4 @@ For support, email support@travelbuddyapp.com or join our [Discord community](ht
 
 ---
 
-Made with ❤️ by the Travel Buddy Team
+Made with ❤️ by Team TripTech.
