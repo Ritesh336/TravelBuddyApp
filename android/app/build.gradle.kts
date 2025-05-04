@@ -10,7 +10,7 @@ plugins {
 android {
     namespace = "com.example.travel_buddy_app"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973"  // Updated from flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -22,12 +22,12 @@ android {
     }
 
     defaultConfig {
-    applicationId = "com.example.travel_buddy_app"
-    minSdk = 23  // Android 6.0 Marshmallow
-    targetSdk = 34  // Android 14
-    versionCode = flutter.versionCode.toInteger()
-    versionName = flutter.versionName
-}
+        applicationId = "com.example.travel_buddy_app"
+        minSdk = 23  // Android 6.0 Marshmallow
+        targetSdk = 34  // Android 14
+        versionCode = flutter.versionCode.toInt()  // Fixed from toInteger()
+        versionName = flutter.versionName
+    }
 
     buildTypes {
         release {
